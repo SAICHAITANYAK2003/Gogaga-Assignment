@@ -1,0 +1,25 @@
+.booking-container{
+    background-image: url('https://i.pinimg.com/736x/b8/27/17/b8271718bf816c3e27709298e9233f70.jpg');
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+.booking-title{
+    color: #fff;
+    
+}
+.booking-description{
+    color: #fff;
+}
+.journey-items-container{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.form-page-container{
+    background-color: #fff;
+}

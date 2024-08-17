@@ -1,0 +1,174 @@
+.form-page-container{
+    height: 45vh;
+    width: 95%;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+   
+}
+.journey-items-container{
+     
+    
+    padding-left: 0px;
+}
+.journey-item{
+    margin-right: 10px;
+}
+.package-button{
+    border: none;
+    outline: none;
+    background-color: black;
+    color: #fff;
+    height: 45px;
+    width: 120px;
+    border-radius: 10px;
+}
+.tours-button{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    
+    color: #000;
+    height: 45px;
+    width: 120px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid #000;
+    border-radius: 15px;
+    height: 60px;
+    width: 250px;
+    padding: 10px;
+    
+}
+.city-input{
+    border: none;
+    outline: none;
+}
+.label-badge{
+    color: rgb(109, 107, 107);
+    font-size: 13px;
+}
+.input-data-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+ 
+.date-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid #000;
+    border-radius: 15px;
+    height: 60px;
+    width: 400px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+}
+.check-in-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.check-out-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+.date-input{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 120px;
+    
+}
+@media screen and (max-width:1000px) {
+    .date-input{
+        width: 80px;
+    }
+    
+}
+.room-selection-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid #000;
+    border-radius: 15px;
+    height: 60px;
+    width: 250px;
+    padding: 10px;
+
+}
+.room-select{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.search-button{
+    height: 60px;
+    width: 60px;
+    outline: none;
+    border: none;
+    background-color: #000;
+    border-radius: 15px;
+}
+.search-icon{
+    color: #fff;
+    font-size: 25px;
+}
+.rating-data{
+    list-style-type: none;
+    display: flex;
+    
+    flex-direction: row;
+    
+}
+.rating-count{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(232, 232, 232);
+}
+.black{
+    background-color: black;
+    color: #fff;
+
+}
+.rating-section{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   padding-left: 20px;
+    
+}
